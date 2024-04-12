@@ -29,3 +29,12 @@ string[] symbol(string[] stringArray)
     }
     return rez;
 }
+void printArray(string[] stringArray)
+{
+    for (int i = 0; i < stringArray.Length; i++)
+    {
+        Console.Write($"{stringArray[i]} ");
+    }
+}
+array(stringArray);
+printArray(symbol(stringArray));
